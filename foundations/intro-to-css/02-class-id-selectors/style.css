@@ -1,1 +1,20 @@
-/* Add CSS Styling */
+.odd {
+    background-color : rgb(233, 146, 159);
+    font-family : verdana, "Dejavu Sans" , sans-serif;
+}
+
+.special {
+    font-size : 24px;
+}
+
+#even {
+  color : rgb(13, 13, 233);
+  font-size : 36px;
+}
+
+#even1 {
+  background-color : rgb(13, 233, 13);
+  font-size : 24px;
+  font-weight: bold;
+
+}

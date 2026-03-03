@@ -8,6 +8,8 @@ img {
 }
 
 .title {
+  display : flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +25,32 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.title {
+  text-align: center;
+  margin-bottom : 32px;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;   /* center the row */
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row; 
+  gap: 52px;   /* stack image + text vertically */
+}
+
+.item { 
+  display: flex; 
+  flex-direction: column;  
+  align-items: center; 
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+  flex-wrap: wrap;          /* allow wrapping inside 200px */
 }

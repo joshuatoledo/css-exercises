@@ -32,8 +32,10 @@ input {
 li , a ,ul {
   list-style-type: none;
   text-decoration: none;
-  padding : 2px;
+  padding : 0px;
   color: gray;
+  margin : 0px;
+  gap : 16px;
 }
 
 .content {

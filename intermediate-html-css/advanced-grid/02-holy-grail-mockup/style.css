@@ -105,6 +105,7 @@
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
 }
 
 .sidebar {
@@ -121,10 +122,11 @@
 .nav ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
 }
 
 .nav ul li {
-  place-self: stretch;
+  place-self: stre;
 }
 
 .article {
